@@ -1303,7 +1303,9 @@ class Settings(object):
                 'tmp_dir': self.tmp_dir,
             },
             'satellite': {
+                'scheme': self.server.scheme,
                 'hostname': self.server.hostname,
+                'port': self.server.port,
                 'password': self.server.admin_password,
                 'username': self.server.admin_username,
             },
